@@ -73,5 +73,5 @@ const restaurant = {
     isOpen: false,
 };
 
-// il metodo migliore per clonare l oggetto chef è JSON.parse(JSON.stringify()), perchè all' interno dell'oggetto chef è contenuto un oggetto che chiede di loggare una semplice stringa
+// il metodo migliore per clonare l oggetto chef è ...spread , perchè con qualsiasi altro metodo non mi compierebbe la funzione presente nell'oggetto chef
 // il metodo migliore per l'oggetto restaurant inceve è lo structuredClone, perche contiete un oggetto complesso come la data che non verrebbe copiata in modo corretto, ma verrebbe traformata in una semplice stringa
